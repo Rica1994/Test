@@ -62,18 +62,12 @@
       };
 
       function defaultGameMode() {
-        if (!isMobile && portraitMode) {
-          dynamicPageLoading(
-            "External/normal_screen_bottom.html",
-            pageSelector,
-            false
-          );
+        if (!isMobile && portraitMode) {         
           dynamicPageLoading(
             "External/normal_screen_top.html",
             pageSelector,
             true
           );
-          manageBottomContent();
           isInFirstScreen = true;
         } else {
           dynamicPageLoading(
@@ -84,9 +78,7 @@
           document
             .getElementById("main-style")
             .setAttribute("href", "External/semi-fullscreen_style.css");
-          clearBottomContent();
           isInFirstScreen = false;
-          manageBottomContent();
         }
       }
 
@@ -146,33 +138,16 @@
 
       function pageSelector(response, top) {
         let topContainer = document.getElementById("top-container");
-        let bottomContainer = document.getElementById("bottom-container");
         setTimeout(() => {
           Resize();
         }, 1);
-        if (top) {
           topContainer.innerHTML = response.responseText;
-        } else {
-          bottomContainer.innerHTML = response.responseText;
-        }
       }
 
       function clearTopContent() {
         var topContainer = document.getElementById("top-container");
         topContainer.innerHTML = "";
       }
-
-      function clearBottomContent() {
-        var bottomContainer = document.getElementById("bottom-container");
-        bottomContainer.innerHTML = "";
-      }
-      function manageBottomContent() {
-        const bottomContainer = document.getElementById("bottom-container");
-        if (isInFirstScreen) {
-          bottomContainer.style.display = "block";
-        } else {
-          bottomContainer.style.display = "none";
-        }
         backgroundOnMobilePortrait();
         
       }
