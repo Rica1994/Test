@@ -268,7 +268,8 @@ footer {
 }
 
 footer p {
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
+  padding-bottom: 0px;
 }
 
 footer p a {
@@ -295,7 +296,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 }
 
@@ -310,7 +312,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 }
 
@@ -325,7 +328,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 }
 
@@ -340,7 +344,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 }
 
@@ -355,7 +360,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 }
 
@@ -370,7 +376,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 
   .logo img {
@@ -391,7 +398,8 @@ footer p a:hover {
     height: auto;
   }
   #bottom-container {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
   }
 }
 
@@ -407,6 +415,6 @@ footer p a:hover {
   }
   #bottom-container {
     /*margin-top: 100px;*/
-    margin-top: 100px;
+    margin-top: 0px;
   }
 }
