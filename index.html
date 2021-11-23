@@ -146,14 +146,14 @@
 
       function pageSelector(response, center) {
         let topContainer = document.getElementById("top-container");
-        let bottomContainer = document.getElementById("bottom-container");
+        <!-- let bottomContainer = document.getElementById("bottom-container"); -->
         setTimeout(() => {
           Resize();
         }, 1);
         if (top) {
           topContainer.innerHTML = response.responseText;
         } else {
-          bottomContainer.innerHTML = response.responseText;
+          <!-- bottomContainer.innerHTML = response.responseText; -->
         }
       }
 
@@ -162,7 +162,7 @@
         topContainer.innerHTML = "";
       }
 
-      function clearBottomContent() {
+      <!-- function clearBottomContent() {
         var bottomContainer = document.getElementById("bottom-container");
         bottomContainer.innerHTML = "";
       }
@@ -172,7 +172,7 @@
           bottomContainer.style.display = "block";
         } else {
           bottomContainer.style.display = "none";
-        }
+        } -->
         backgroundOnMobilePortrait();
         
       }
@@ -432,7 +432,7 @@
           </div>
         </div>
         <!--Band below Webgl content-->
-        <div id="bottom-container"></div>
+        <!-- <div id="bottom-container"></div>-->
       </div>
     </div>
     <script>
