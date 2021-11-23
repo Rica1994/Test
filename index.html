@@ -74,7 +74,7 @@
             true
           );
           manageBottomContent();
-          isInFirstScreen = true;
+          isInFirstScreen = false;
         } else {
           dynamicPageLoading(
             "External/semi-fullscreen.html",
@@ -144,7 +144,7 @@
         xhr.send();
       }
 
-      function pageSelector(response, top) {
+      function pageSelector(response, center) {
         let topContainer = document.getElementById("top-container");
         let bottomContainer = document.getElementById("bottom-container");
         setTimeout(() => {
