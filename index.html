@@ -12,9 +12,18 @@
     </script>
   </head>
   <style>
-  body { margin: 0; }          
+  body { margin: 0;
+         display: none;
+}          
   </style>
   <body>
-      <div id="unityContainer" ></div>      
+      <div id="unityContainer" ></div>
+    <script>
+      
+      setTimeout(function(){
+        $("#unityContainer").find("button").click();
+        $("body").fadeIn();
+      }, 2000); 
+    </script>
   </body>
 </html>
