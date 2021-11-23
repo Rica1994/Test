@@ -256,7 +256,31 @@
   background-repeat: no-repeat;
 }
 
+/* Footer */
 
+/* Footer */
+
+footer {
+  margin-top: 8%;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+footer p {
+  padding-bottom: 40px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #6f6f6f;
+  outline: none;
+}
+
+footer p a:hover {
+  color: #749ccc;
+  letter-spacing: 0.5px;
+}
 
 /*----Responsiveness for different devices----*/
 
