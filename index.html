@@ -74,7 +74,7 @@
             true
           );
           manageBottomContent();
-          isInFirstScreen = false;
+          isInFirstScreen = true;
         } else {
           dynamicPageLoading(
             "External/semi-fullscreen.html",
@@ -144,16 +144,16 @@
         xhr.send();
       }
 
-      function pageSelector(response, center) {
+      function pageSelector(response, top) {
         let topContainer = document.getElementById("top-container");
-        <!-- let bottomContainer = document.getElementById("bottom-container"); -->
+        let bottomContainer = document.getElementById("bottom-container");
         setTimeout(() => {
           Resize();
         }, 1);
         if (top) {
           topContainer.innerHTML = response.responseText;
         } else {
-          <!-- bottomContainer.innerHTML = response.responseText; -->
+          bottomContainer.innerHTML = response.responseText;
         }
       }
 
@@ -162,7 +162,7 @@
         topContainer.innerHTML = "";
       }
 
-      <!-- function clearBottomContent() {
+      function clearBottomContent() {
         var bottomContainer = document.getElementById("bottom-container");
         bottomContainer.innerHTML = "";
       }
@@ -172,7 +172,7 @@
           bottomContainer.style.display = "block";
         } else {
           bottomContainer.style.display = "none";
-        } -->
+        }
         backgroundOnMobilePortrait();
         
       }
@@ -432,9 +432,12 @@
           </div>
         </div>
         <!--Band below Webgl content-->
-        <!-- <div id="bottom-container"></div>-->
+        <div id="bottom-container"></div>
       </div>
     </div>
+    <footer>
+      Template made by Repulse - <a href="https://jrpg.com/arcade">Link</a>
+    </footer>
     <script>
       function toggleHamburger(obj) {
         const containerElement = obj.parentElement.parentElement;
