@@ -1,7 +1,0 @@
-ManifestFileVersion: 0
-CRC: 859541954
-AssetBundleManifest:
-  AssetBundleInfos:
-    Info_0:
-      Name: mynewbundle
-      Dependencies: {}
