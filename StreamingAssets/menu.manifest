@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3791908123
+CRC: 3742445193
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8fa3feec0a44623034d5371bf9c5098d
+    Hash: 77046f723da1285cd07f784b61cc3b48
   TypeTreeHash:
     serializedVersion: 2
     Hash: 720f539693df13d12e2585dc80889389
@@ -23,6 +23,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/BundledAssets/Menu/Menu_Images_high.prefab
-- Assets/BundledAssets/Menu/Menu_Images_low.prefab
+- Assets/BundledAssets/Menu/Menu_high.prefab
+- Assets/BundledAssets/Menu/Menu_low.prefab
 Dependencies: []
