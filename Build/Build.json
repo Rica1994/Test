@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
-"productName": "Test",
-"productVersion": "0.1",
+"companyName": "Fabrique Fantastique",
+"productName": "Ridder Muis Het Spel",
+"productVersion": "1.4.0",
 "dataUrl": "Build.data.unityweb",
 "wasmCodeUrl": "Build.wasm.code.unityweb",
 "wasmFrameworkUrl": "Build.wasm.framework.unityweb",
