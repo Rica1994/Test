@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2482011246
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 095e80c81c9d12c01cb1767a5b9675d5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 720f539693df13d12e2585dc80889389
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28dba4969fb4a4449a27e877ab00436b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/Menu/Menu_Images_high.prefab
+- Assets/BundledAssets/Menu/Menu_Images_low.prefab
+Dependencies: []
