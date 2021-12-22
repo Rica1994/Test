@@ -1,36 +1,28 @@
 ManifestFileVersion: 0
-CRC: 4105524489
+CRC: 3791908123
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 112eb82c36dfc9f0b1205bd6c7fa05e4
+    Hash: 8fa3feec0a44623034d5371bf9c5098d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 113d84275c3afac635c537709482757f
+    Hash: 720f539693df13d12e2585dc80889389
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
   Script: {instanceID: 0}
-- Class: 21
-  Script: {instanceID: 0}
 - Class: 28
-  Script: {instanceID: 0}
-- Class: 48
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 28dba4969fb4a4449a27e877ab00436b, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-- Class: 212
-  Script: {instanceID: 0}
 - Class: 213
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/BundledAssets/Menu/Quarter_Head.prefab
 - Assets/BundledAssets/Menu/Menu_Images_high.prefab
 - Assets/BundledAssets/Menu/Menu_Images_low.prefab
-- Assets/BundledAssets/Menu/Quarter_Body.prefab
 Dependencies: []
