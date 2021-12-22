@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 808235970
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c46857eb37913be7b5ce67744ab33f61
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 30a470a4fde256581b87a92d1b6362ff
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/Living/Env_Living_high.prefab
+- Assets/BundledAssets/Living/Env_Living_low.prefab
+Dependencies: []

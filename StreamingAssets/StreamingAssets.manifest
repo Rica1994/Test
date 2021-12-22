@@ -1,7 +1,10 @@
 ManifestFileVersion: 0
-CRC: 3085521720
+CRC: 2523994136
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: menu
+      Dependencies: {}
+    Info_1:
+      Name: living
       Dependencies: {}
