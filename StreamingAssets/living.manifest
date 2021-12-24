@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 808235970
+CRC: 118992457
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c46857eb37913be7b5ce67744ab33f61
+    Hash: e6b655d150cd99141d7ada7c6065ddb0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 30a470a4fde256581b87a92d1b6362ff
@@ -28,5 +28,4 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/BundledAssets/Living/Env_Living_high.prefab
-- Assets/BundledAssets/Living/Env_Living_low.prefab
 Dependencies: []
