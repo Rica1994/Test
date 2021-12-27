@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1736824851
+CRC: 145287478
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -10,4 +10,10 @@ AssetBundleManifest:
       Dependencies: {}
     Info_2:
       Name: bedroom
+      Dependencies: {}
+    Info_3:
+      Name: outside
+      Dependencies: {}
+    Info_4:
+      Name: princetower
       Dependencies: {}

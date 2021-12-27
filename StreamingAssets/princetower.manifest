@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1906079134
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b000806acf149ab440a05272400e80f1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5f50f29f0e3a15652d5f9bdd3b3dfa8d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BundledAssets/PrinceTower/Env_PrinceTower_low.prefab
+- Assets/BundledAssets/PrinceTower/Env_PrinceTower_high.prefab
+Dependencies: []
