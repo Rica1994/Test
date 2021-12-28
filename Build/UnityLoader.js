@@ -2253,7 +2253,7 @@ var UnityLoader = UnityLoader || {
                         })
                     }
                     o.isModularized = o.unityVersion && o.unityVersion.version >= 2019, UnityLoader.buildCompatibilityCheck(o, function() {
-                        e.style.background = o.backgroundUrl ? "center/cover url('" + o.resolveBuildUrl(o.backgroundUrl) + "')" : o.backgroundColor ? " " + o.backgroundColor : "", n.onProgress(n, 0), i = UnityLoader.loadModule(o, r.onerror)
+                        e.style.background = o.backgroundUrl ? "center/cover url('" + o.resolveBuildUrl(o.backgroundUrl) + "')" : o.backgroundColor ? " " + o.backgroundColor : "#EEEEEE", n.onProgress(n, 0), i = UnityLoader.loadModule(o, r.onerror)
                     }, r.onerror)
                 }, t.send()
             }, function() {
