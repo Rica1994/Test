@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1621336259
+CRC: 507769184
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 738d0dbf31c31368966bb32c4fc90a71
+    Hash: 1810ac5347de9528246fa56f0863e120
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 10c282bb780db97c4338ce086ad35b3e
+    Hash: 73213bfb6583bdea247ef0fb2488afc2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -18,14 +18,6 @@ ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 48
-  Script: {instanceID: 0}
-- Class: 65
-  Script: {instanceID: 0}
-- Class: 74
-  Script: {instanceID: 0}
-- Class: 91
-  Script: {instanceID: 0}
-- Class: 95
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 9685d825eee51074cabf84d1dc069385, type: 3}
@@ -39,7 +31,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/BundledAssets/Outside/Env_Outside_low.prefab
-- Assets/BundledAssets/Outside/Env_Outside_high.prefab
 - Assets/BundledAssets/Outside/Env_Outside01_low.prefab
 Dependencies: []
